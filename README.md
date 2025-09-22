@@ -2,6 +2,12 @@
 ## Project Description
 This project is an exploration of data engineering and science aimed at analyzing Formula 1 driver performance and its relationship with weather conditions. The central hypothesis is inspired by the debate surrounding the competitiveness of drivers like Max Verstappen and Oscar Piastri, and seeks to determine how factors like weather can influence a season's results. The project is based on data from the 2023-2025 seasons, a relevant period that avoids the issues of significant regulation changes.
 
+## **Project Background and Origin**
+
+This project grew out of a smaller exploratory experiment hosted in my **[Data Experiments/F1_comparison](https://github.com/ManuelCartin/Data_Experiment/tree/main/f1_climate_comparison)** repository. The initial goal was to merge and clean weather datasets from just four Formula 1 circuits (Spa, Bahrain, Miami, and Singapore).
+
+The learnings from this experiment, especially the challenges in city mapping and data cleaning, served as a foundation and inspired me to expand the idea to create a complete season-long data product.
+
 ## Project Phases
 ### Phase 1: Data Engineering - Creation of the Base Dataset
 In this phase, the main challenge was data acquisition and preprocessing. The F1 data was obtained from 24 CSV files, while the weather data came from the historique-meteo platform.
