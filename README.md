@@ -45,6 +45,21 @@ Phase 3: Python (Pandas, Matplotlib, Seaborn), Jupyter Notebook, Scikit-learn (f
 
 Phase 4 (Future): NOAA and METAR APIs, advanced machine learning libraries (e.g., TensorFlow, PyTorch).
 
+---
+### **Fuentes de Datos y Preprocesamiento**
+
+Este proyecto utiliza datos de dos fuentes principales que fueron procesadas y preparadas para su análisis:
+
+* **Formula 1 Data:**
+* **Source:** 24 CSV files from the 2023-2025 seasons.
+* **Challenge and Solution:** Manually uploading each file was inefficient. Shell-based scripts were created to automate the reading process, add columns (`gp`, `city`), and consolidate the data into a single dataset using Python.
+
+* **Meteorological Data:**
+* **Source:** [historique-meteo](https://www.historique-meteo.net/)
+* **Challenge and Solution:** The database did not include information for all cities with circuits. A mapping and triangulation process was implemented, choosing the closest city from a set of three possible ones to ensure the best possible climatic approximation.
+
+---
+
 Author
 [Manuel Cartin]
 
